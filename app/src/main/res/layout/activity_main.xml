@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cor"
+        android:layout_width="215dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/COVID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coronatrackerappicon1" />
+
+    <TextView
+        android:id="@+id/COVID"
+        android:layout_width="283dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="223dp"
+        android:fontFamily="@font/ledger"
+        android:paddingLeft="30dp"
+        android:text="COVID+"
+        android:textColor="#051570"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cor" />
+</androidx.constraintlayout.widget.ConstraintLayout>
