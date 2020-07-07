@@ -2,14 +2,5 @@
     <string name="app_name">COVID+</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="precaution">
-    <br>1. Clean your hands often. Use soap and water, or an alcohol-based hand rub.\n</br>
-    <br>2. Maintain a safe distance from anyone who is coughing or sneezing.\n</br>
-    <br>3. Don’t touch your eyes, nose or mouth.\n</br>
-    <br>4. Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\n</br>
-    <br>5. Stay home if you feel unwell.\n</br>
-    <br>6. If you have a fever, cough and difficulty breathing, seek medical attention. Call in advance.\n</br>
-    <br>7. Follow the directions of your local health authority.\n</br>
-</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
