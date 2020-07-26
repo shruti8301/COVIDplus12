@@ -66,6 +66,10 @@ public class HomeActivity extends AppCompatActivity {
                 case R.id.states:
                     fragment=new StateFragment();
                     break;
+                case R.id.countriesworld:
+                    fragment=new countriesWorldFragment();
+                    break;
+
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment).commit();
             return true;

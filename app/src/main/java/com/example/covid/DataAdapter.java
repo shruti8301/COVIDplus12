@@ -40,6 +40,9 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.MyViewHolder> 
         holder.recoveredTextView.setText(sts.getRecovered());
         holder.deathsTextView.setText(sts.getDeaths());
         holder.ActiveTextView.setText(sts.getActive());
+        holder.growthTotalTextView.setText(sts.getDeltaconfirmed());
+        holder.growthRecoveredTextView.setText(sts.getDeltarecovered());
+        holder.growthDeathsTextView.setText(sts.getDeltadeaths());
     }
 
     @Override
@@ -53,7 +56,10 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.MyViewHolder> 
         ImageView recovered;
         ImageView deaths;
         ImageView active;
-        TextView totalTextView,recoveredTextView,deathsTextView,stateName,ActiveTextView;
+        ImageView growthTotal;
+        ImageView growthRecovered;
+        ImageView growthDeaths;
+        TextView totalTextView,recoveredTextView,deathsTextView,stateName,ActiveTextView,growthTotalTextView,growthRecoveredTextView,growthDeathsTextView;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -61,11 +67,17 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.MyViewHolder> 
             recovered=itemView.findViewById(R.id.recov);
             deaths=itemView.findViewById(R.id.death);
             active=itemView.findViewById(R.id.active);
+            growthTotal=itemView.findViewById(R.id.growthTotal);
+            growthRecovered=itemView.findViewById(R.id.growthRecovered);
+            growthDeaths=itemView.findViewById(R.id.growthDeaths);
             totalTextView=itemView.findViewById(R.id.totalStateCount);
             recoveredTextView=itemView.findViewById(R.id.recoveredTextView);
             deathsTextView=itemView.findViewById(R.id.DeathsTextView);
             stateName=itemView.findViewById(R.id.stateTextView);
             ActiveTextView=itemView.findViewById(R.id.ActiveTextView);
+            growthDeathsTextView=itemView.findViewById(R.id.growthDeathsTextView);
+            growthRecoveredTextView=itemView.findViewById(R.id.growthRecoveredTextView);
+            growthTotalTextView=itemView.findViewById(R.id.growthTotalTextView);
         }
     }
 }

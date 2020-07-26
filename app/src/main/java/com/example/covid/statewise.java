@@ -13,6 +13,16 @@ public class statewise {
     private String state;
     @SerializedName("recovered")
     private String recovered;
+    @SerializedName("deltaconfirmed")
+    private String deltaconfirmed;
+    @SerializedName("deltarecovered")
+    private String deltarecovered;
+
+
+
+
+    @SerializedName("deltadeaths")
+    private String deltadeaths;
 
     public String getActive() {
         return active;
@@ -52,5 +62,28 @@ public class statewise {
 
     public void setRecovered(String recovered) {
         this.recovered = recovered;
+    }
+    public String getDeltaconfirmed() {
+        return deltaconfirmed;
+    }
+
+    public void setDeltaconfirmed(String deltaconfirmed) {
+        this.deltaconfirmed = deltaconfirmed;
+    }
+
+    public String getDeltarecovered() {
+        return deltarecovered;
+    }
+
+    public void setDeltarecovered(String deltarecovered) {
+        this.deltarecovered = deltarecovered;
+    }
+
+    public String getDeltadeaths() {
+        return deltadeaths;
+    }
+
+    public void setDeltadeaths(String deltadeaths) {
+        this.deltadeaths = deltadeaths;
     }
 }

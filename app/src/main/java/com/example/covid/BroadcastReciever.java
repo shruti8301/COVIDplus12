@@ -28,7 +28,6 @@ public class BroadcastReciever extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         DownloadTask task = new DownloadTask();
         task.execute("https://api.thevirustracker.com/free-api?countryTotal=IN");
-
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, "notifyupdate")
                 .setSmallIcon(R.drawable.coronatrackerappicon1)
                 .setContentTitle("COVID+")

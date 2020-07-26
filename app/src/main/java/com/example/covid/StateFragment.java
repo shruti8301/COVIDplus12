@@ -82,6 +82,9 @@ public class StateFragment extends Fragment {
                     content+= "DEATHS:"+statewise.getDeaths()+"\n";
                     content+= "STATE:"+statewise.getState()+"\n";
                     content+= "RECOVERED:"+statewise.getRecovered()+"\n";
+                    content+= "todayconfirmed:"+statewise.getDeltaconfirmed()+"\n";
+                    content+= "todayRECOVERED:"+statewise.getDeltarecovered()+"\n";
+                    content+= "todayDEATHS:"+statewise.getDeltadeaths()+"\n";
                     Log.i("DATA:",content);
 
                 }

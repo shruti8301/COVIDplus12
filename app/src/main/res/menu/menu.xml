@@ -11,6 +11,11 @@
         android:icon="@drawable/world"
         android:iconTint="@color/colorPrimary"/>
     <item
+        android:title="States"
+        android:id="@+id/countriesworld"
+        android:icon="@drawable/countries"
+        android:iconTint="@color/colorPrimary"/>
+    <item
         android:id="@+id/country"
         android:title="Country"
         android:icon="@drawable/country"
