@@ -5,3 +5,4 @@ STAY HOME,STAY SAFE!!
 challenges faced were implementing notification bar.
 I learned retrofit importance and notification bar from this project.
 Finding best api were another challenge I faced in limited period of time.
+Make sure you have good speed of internet!!
